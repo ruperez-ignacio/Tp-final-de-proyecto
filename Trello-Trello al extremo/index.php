@@ -21,7 +21,7 @@
     <div class="container-all">
 
         <div class="ctn-form">
-            <img src="images/logo.png" alt="" class="logo">
+            <img src="images/image.png" alt="" class="logo">
             <h1 class="title">Iniciar Sesión</h1>
 
             <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
@@ -33,7 +33,7 @@
                 <input type="password" name="password">
                 <span class="msg-error"><?php echo $password_err; ?></span>
 
-                <input type="submit" value="Iniciar">
+                <input type="submit" value="Iniciar sesión">
 
             </form>
 
