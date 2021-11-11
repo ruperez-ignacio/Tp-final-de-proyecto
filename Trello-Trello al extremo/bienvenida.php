@@ -24,7 +24,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
    <div class="ctn-welcome">
        
        <img src="images/logo.png" alt="" class="logo-welcome">
-       <h1 class="title-welcome">Bienvenido lo has <b>LOGRADOOOOOO!</b></h1>
+       <h1 class="title-welcome">Bienvenido, ya puedes ver nuestros <b>productos</b></h1>
+       <a href="productos.php" class="close-sesion">Ver productos</a>
        <a href="cerrar-sesion.php" class="close-sesion">Cerrar Sesión</a>
        
    </div>

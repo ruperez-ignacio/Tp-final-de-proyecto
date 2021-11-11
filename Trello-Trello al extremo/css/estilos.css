@@ -171,7 +171,8 @@ input[type="submit"]:hover {
 }
 
 
-.close-sesion {
+
+.close-sesion  {
     width: 100%;
     max-width: 600px;
     margin: auto;
