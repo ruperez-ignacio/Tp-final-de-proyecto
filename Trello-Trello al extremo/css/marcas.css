@@ -1,0 +1,39 @@
+body{
+    max-width: auto;
+}
+
+img{
+    margin: 21px;
+}
+
+.marca{
+    display: flex;
+    flex-wrap: wrap;
+}
+.puma{
+    height: 220px;
+}
+
+.fila {
+    height: 220px;
+}
+.adidas{
+    height: 220px;
+}
+.amazon{
+    height: 220px;
+}
+.under{
+    height: 220px;
+}
+.reebok{
+    height: 220px;
+}
+
+.deportes{
+    height: 220px;
+}
+.conjunto{
+    display:block;
+    margin:auto;
+}
