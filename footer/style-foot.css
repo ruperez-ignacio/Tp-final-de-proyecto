@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@1,600&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Public Sans', sans-serif;
+}
+.pie-pag{
+	width: 100;
+	background-color: #BF8EC7;
+}
+.pie-pag .grupo-1{
+	width:100;
+	max-width: 1200px;
+	margin: auto;
+	display: grid;
+	grid-templete-colums: repeat(3,1fr);
+	grid-gap: 50;
+	padding: 45px 0px;
+}
+.pie-pag .grupo-1 .box{
+	width: 100%;
+	height: 100p%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.pie-pag .grupo-1 .box figure img{
+	width: 200px;
+}
+.pie-pag .grupo-1 .box h2{
+	color: #F1ECF2;
+	margin-bottom: 25px;
+	font-size: 20px;
+}
