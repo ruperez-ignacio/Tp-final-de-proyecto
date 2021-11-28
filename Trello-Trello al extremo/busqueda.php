@@ -14,14 +14,15 @@ require_once "conexion.php";
     <form class="nav-busqueda-input" action="index.html" method="GET" role="search">
         <input type="text" name="busqueda"><br>
         <input type="submit" name="enviar" value="buscar">
+        <div role="img" aria-label="Buscar" class="nav-icono-busqueda">:before</div>
     </form>
 
     <br><br><br>
 
     <?php
 
-    if(isset($_POST['enviar'])){
-        $busqueda = $_POST['busqueda'];
+    if(isset($_GET['enviar'])){
+        $busqueda = $_GET['busqueda'];
 
         $consulta = $con->query("SELECT * FROM trello WHERE desc_tipo_producto LIKE '%$busqueda%");
 
@@ -29,5 +30,7 @@ require_once "conexion.php";
             echo $row['desc_tipo_producto'].'<br>';
         }
     }
+    
+    ?>
 </body>
 </html>
