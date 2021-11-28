@@ -10,8 +10,8 @@ require_once "conexion.php";
     <link rel="stylesheet" href="css/busqueda.css">
     <title></title>
 </head>
-<body>
-    <form action="" method="post">
+<body> 
+    <form class="nav-busqueda-input" action="index.html" method="GET" role="search">
         <input type="text" name="busqueda"><br>
         <input type="submit" name="enviar" value="buscar">
     </form>
